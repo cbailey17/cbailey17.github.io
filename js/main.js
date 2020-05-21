@@ -1,4 +1,4 @@
 $(function(){
-  $("#nav-placeholder").load("/nav.html");
+  $("#navigation-placeholder").load("/navigation.html");
   $("#footer-placeholder").load("/footer.html");
 });
