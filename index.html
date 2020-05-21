@@ -1,41 +1,108 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <!-- Primary Meta Tags -->
+    <title> Alex Baileys Portfolio </title>
+    <meta name="title" content="Alex Baileys Portfolio">
+    <meta name="description" content="Alex Bailey is an Aerospace Engineer and Software Developer in San Diego, CA">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/main.css">
 
-<body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="theme-color" content="#fafafa">
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <style>
+      body {
+        padding-top: 50px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
+  <body>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <span class="anchor" id="myAbout"></span>
+      <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+              <h2><strong>I build rockets, spacecraft simulators, drones, and software.</strong></h2>
+              <br>
+              <p> <a title="Link to Northrop Grumman website" href="https://www.northropgrumman.com/" target="_blank">Northrop Grumman</a>
+              <p>fdgfhdggd</p>
+              <br>
+              <a type="button" class="btn btn-success btn-lg" href="#myContact">
+                  Get In Touch
+              </a>
+              <hr>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+              <img src="/img/compressed_pic.jpg" id="aboutPic" class="" title="spacecraft simulator" alt="spacecraft simulators">
+              </img>
+          </div>
+      </div>
+    </div>
+  </div>
 
+
+  <div class="container">
+    <center>
+      <span class="anchor" id="myContact"></span>
+      <hr>
+      <h1 style="margin-bottom:30px;"> Get In Touch </h1>
+    </center>
+    <div class="row">
+      <div class="col-md-4">
+        <center>
+          <h4><strong>Email: </strong>&nbsp;<a title="Click to open email app" href="mailto:a.cameronbailey@gmail.com">a.cameronbailey@gmail.com</a></h4>
+        </center>
+      </div>
+      <div class="col-md-4">
+        <center>
+          <h4><strong>LinkedIn: </strong>&nbsp;<a title="LinkedIn profile will open in new tab" href="https://www.linkedin.com/in/alexcameronbailey/" target="_blank">Alex's Profile</a></h4>
+        </center>
+      </div>
+      <div class="col-md-4">
+        <center>
+          <h4><strong>GitHub: </strong>&nbsp;<a title="GitHub profile will open in new tab" href="https://github.com/cbailey17" target="_blank">Alex's Public Repositories</a></h4>
+        </center>
+      </div>  
+    </div>
+    <center>
+      <a style="margin-top:20px;" type="button" class="btn btn-success btn-lg" href="/doc/AlexBaileyResume_41320.pdf" target="_blank">My Resume</a>
+    </center>
+  </div>
+   
+  <hr>
+
+  <div id="footer-placeholder">
+  </div>
+
+</div>
+    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
