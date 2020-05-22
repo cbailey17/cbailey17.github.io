@@ -38,6 +38,8 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="css/main.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Add tile colors and different size images - https://webdesign.tutsplus.com/tutorials/how-to-add-windows-tiles-to-your-website--cms-23099 -->
     <meta name="msapplication-TileColor" content="#00a300">
@@ -45,31 +47,31 @@
   </head>
 
   <body>
-
 <!-- Navigation bar-->
-<nav class="nav">
-    <div class="container">
-        <div class="logo">
-            <a href="/logo.jpg">Your Logo</a>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="/logo.jpg">Alex Bailey</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#myAbout">About Me</a></li>
+                    <li><a href="#myPortfolio">Portfolio</a></li>
+                    <li><a href="#mySkills">Skills</a></li>
+                    <li><a href="#myContact">Contact</a></li>
+                    <li><a href="/doc/AlexBaileyResume_41320.pdf">Resume</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </div>
-        <div id="mainListDiv" class="main_list">
-            <ul class="navlinks">
-                <li><a href="#myAbout">About Me</a></li>
-                <li><a href="#myPortfolio">Portfolio</a></li>
-                <li><a href="#mySkills">Skills</a></li>
-                <li><a href="#myContact">Contact</a></li>
-                <li><a href="/doc/AlexBaileyResume_41320.pdf">Resume</a></li>
-            </ul>
-        </div>
-        <span class="navTrigger">
-            <i></i>
-            <i></i>
-            <i></i>
-        </span>
-    </div>
-</nav>
+    </nav>
 
 <section class="home">
+    <a href="#" class="fa fa-facebook"></a>
 </section>
 <div style="height: 1000px">
     <!-- just to make scrolling effect possible -->
@@ -129,7 +131,7 @@
       <div class="row">
         <div class="col-md-6">
             <div class="container-projects">
-                <a href=""><img src="" alt="Photo of SAT" class="img-thumbnail" style="width:100%; margin-bottom:10px;"></img>
+                <a href="/sat.html"><img src="/img/assem.jpg" alt="Photo of SAT" class="img-thumbnail" style="width:100%; margin-bottom:10px;"></img>
                 <div class="text-block-projects">
                     <h3>CubeSat 3-DOF Simulator</h3>
                 </div>
