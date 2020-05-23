@@ -6,8 +6,6 @@
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  top: 30%;
-  left: 20%;
 }
 
 .fa:hover {
@@ -17,6 +15,8 @@
 .fa-facebook {
   background: #3B5998;
   color: white;
+  top: 30%;
+  left: 20%;
 }
 
 .myCall{
